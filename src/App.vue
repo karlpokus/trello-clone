@@ -22,8 +22,8 @@ export default {
   methods: {
     selectBoard: function (e) {
       this.$router.push({
-        path: '/board',
-        query: {
+        name: 'board',
+        params: {
           id: e.target.value
         }
       })
